@@ -1,0 +1,14 @@
+TARGETNAME=RsaVerify
+RELEASETYPE=PLATFORM
+WINCECPU=1
+TARGETTYPE=LIBRARY
+
+INCLUDES=c:\WINCE600\PUBLIC\COMMON\SDK\inc;
+
+SOURCES=bignum.c 	\
+	rsa.c	\
+	des.c	\
+	sha1.c	\
+	sha256.c	\
+	sha512.c	\
+	RsaVerify.c
